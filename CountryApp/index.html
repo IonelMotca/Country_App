@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Country App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		
+		<section>
+			<div class="container">
+				<div class="search-country" >
+				<input
+					id="search"
+					class="search"
+					type="text"
+					placeholder="Search anything :)"
+				/>
+			</div>
+			
+				<div class="filter" id="filter">
+					Filter by Region
+					<ul>
+						<li>Africa</li>
+						<li>Americas</li>
+						<li>Asia</li>
+						<li>Europe</li>
+						<li>Refresh</li>
+					</ul>
+				</div>
+
+				<div class="population" id="population">
+					Filter by Population range
+					<ul>
+						<li>Over 1mil</li>
+						<li>Over 10mil</li>
+						<li>Over 50mil</li>
+						<li>Over 100mil</li>
+						<li>Refresh</li>
+					</ul>
+				</div>
+
+				<div class="languages" id="languages">
+					Filter by languages
+					<ul>
+						<li>English</li>
+						<li>Romana</li>
+						<li>Refresh</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<div class="info" id="info">
+			<div class="container">
+				<button class="btn-close" id="close">
+					Close
+				</button>
+				<img src="" alt="" />
+				<div class="modal-body"></div>
+			</div>
+		</div>
+
+		<section>
+			<div class="container countries" id="countries">
+				<h2>Loading...</h2>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
